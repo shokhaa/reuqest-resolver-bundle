@@ -1,8 +1,8 @@
 {
   "name": "shokhaa/reuqest-resolver-bundle",
+  "version": "0.0.1",
   "type": "symfony-bundle",
   "description": "Parse symfony requests to DTO and Validate",
-  "minimum-stability": "dev",
   "keywords": [
     "php",
     "symfony",
@@ -11,7 +11,10 @@
   ],
   "license": "MIT",
   "require": {
-    "php": ">8.2"
+    "php": ">8.2",
+    "symfony/framework-bundle": "^6.3",
+    "symfony/serializer-pack": "*",
+    "symfony/validator": "6.3.*"
   },
   "config": {
     "sort-packages": true
