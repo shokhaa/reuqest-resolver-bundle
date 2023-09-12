@@ -5,7 +5,7 @@ services:
     autowire: true
     autoconfigure: true
 
-  Shokhaa\:
+  Shokhaa\RequestResolverBundle\:
     resource: '../src/'
     exclude:
       - '../src/DependencyInjection/'
