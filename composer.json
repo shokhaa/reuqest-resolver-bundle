@@ -1,0 +1,35 @@
+{
+  "name": "shokhaa/reuqest-resolver-bundle",
+  "version": "0.0.1",
+  "type": "symfony-bundle",
+  "description": "Parse symfony requests to DTO and Validate",
+  "keywords": [
+    "php",
+    "symfony",
+    "reusable bundle",
+    "request"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">8.2"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Shokhaa\\RequestResolverBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Shokhaa\\RequestResolverBundle\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Shakhobiddin (shokhaa)",
+      "email": "muxawa@gmail.com"
+    }
+  ]
+}

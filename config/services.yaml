@@ -1,0 +1,11 @@
+parameters:
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  Shokhaa\RequestResolverBundle\:
+    resource: '../src/'
+    exclude:
+      - '../src/DependencyInjection/'
