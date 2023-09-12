@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "type": "symfony-bundle",
   "description": "Parse symfony requests to DTO and Validate",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "keywords": [
     "php",
     "symfony",
